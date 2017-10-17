@@ -1,0 +1,66 @@
+#-------------------------------
+# General Site Settings
+
+title: Charis Pavlidis' Portfolio
+description: Powered by Jekyll and GitHub Pages
+email: pavlidis.chrs@gmail.com
+
+menu:
+- {name: 'Projects', url: ''}
+- {name: 'Blog', url: 'blog.html'}
+- {name: 'About', url: 'about.html'}
+- {name: 'Contact', url: 'contact.html'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+#seo:
+#  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
+#  rel-author: 'https://plus.google.com/u/0/#'
+#  rel-publisher: 'https://plus.google.com/u/0/#'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+about: >
+  # Hi, I am Charis Pavlidis!
+  
+
+  I am a Computer Engineer, who worked as a Research Assistant in a Computer Vision project at CERTH, Greece. Currently, I have moved to Switzerland (my second country of citizenship), where I am looking for a career starting. In the meantime, I work on the projects you can see in the front page of the site. 
+
+contact: >
+  # Contact
+
+  If you are interested in anything you see on this site feel free to [contact me by email](mailto:pavlidis.chrs@gmail.com).
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: 'Proactive Machines', folder: '1.proactiveMachines', file: 'projects/1.proactiveMachines.html'}
+- {name: 'Musicology App', folder: '2.musicology', file: 'projects/2.musicology.html'}
+- {name: 'Published Paper', folder: '3.paper', file: 'projects/3.paper.html'}
+- {name: 'My Thesis', folder: '4.thesis', file: 'projects/4.thesis.html'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'github', link: 'https://github.com/pavlidischrs'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/charispavlidis'}
+- {icon: 'envelope', link: 'mailto:pavlidis.chrs@gmail.com'}
+
+
