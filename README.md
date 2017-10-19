@@ -6,4 +6,4 @@ This is my porfolio's repo [pavlidischrs.github.io](pavlidischrs.github.io)
 
 # Acknowledgments
 
-Many thanks to the [portfolio-jekyll-theme](https://github.com/DavidForster/strata-jekyll) repo for the theme.
+Many thanks to the [repo of the used theme](https://github.com/DavidForster/strata-jekyll).
