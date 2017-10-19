@@ -1,11 +1,17 @@
-# Build settings
-
-markdown: kramdown
-permalink: none
-plugins:             [jekyll-sitemap]
-
-port: 4000
-
+title: Strata by HTML5 UP
+description: >
+  **Hi, I am Charis Pavlidis!** <br />
+  I am a Computer Engineer and <br />
+  this is my portfolio. 
+copyright: Untitled
 sass:
-  sass_dir: assets/css
-  style: :nested
+  sass_dir: assets/sass
+url: http://localhost:4000
+disqus_shortname: stratajekylldemo
+linkedin_username: "charispavlidis"
+github_username:  "pavlidischrs"
+feed_icon: rss
+email: "pavlidis.chrs@gmail.com"
+gems: [jekyll-paginate]
+paginate_path: "/page/:num/"
+paginate: 5
