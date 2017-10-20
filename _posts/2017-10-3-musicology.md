@@ -4,6 +4,7 @@ title: 'Musicology App'
 categories: Meta
 excerpt: Application for Musicians & Musicologists
 coverImage: "/images/projects/2.musicology/sequence.png"
+location: "/meta/2017/10/03/musicology"
 ---
 [Under Development \| Demo is provided]
 

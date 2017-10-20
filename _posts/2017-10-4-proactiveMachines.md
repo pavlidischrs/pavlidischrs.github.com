@@ -4,6 +4,7 @@ title: 'Proactive Machines Project'
 categories: Meta
 excerpt: Computer Vision & Machine Learning
 coverImage: "/images/projects/1.proactiveMachines/workflow.png" 
+location: "/meta/2017/10/04/proactiveMachines.html"
 ---
 [Implemented \| Will be further developed (see **Future Work** section)]
 
