@@ -1,6 +1,6 @@
 # Description
 
-This is my porfolio's repo [pavlidischrs.github.io](https://pavlidischrs.github.io)
+This is my porfolio's repo [cpavlidis.com](https://cpavlidis.com)
 
 
 <br />
