@@ -1,4 +1,15 @@
 <title>{% if page.title %}{{ page.title | append:' - ' | append:site.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% if site.google-analytics-ua %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108436907-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108436907-1');
+</script>
+{% endif %}
 <meta charset="utf-8" />
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | markdownify | strip_html }}{% endif %}" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
