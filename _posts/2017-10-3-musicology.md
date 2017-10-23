@@ -20,10 +20,6 @@ The exercise **scenario** is to display Sequences of Musical Notes with some gap
 
 
 
-## Demo 
-
-
-A video will be added ASAP.
 
 **Note:**
 

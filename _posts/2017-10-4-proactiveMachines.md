@@ -44,9 +44,6 @@ It could be used any network and pre-trained model.
 
 
 
-## Video
-
-A video will be added ASAP.
 
 ## Source Code
  
