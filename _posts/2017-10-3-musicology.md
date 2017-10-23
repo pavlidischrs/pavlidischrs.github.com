@@ -2,7 +2,7 @@
 layout: post
 title: 'Musicology App'
 categories: Meta
-excerpt: Application for Musicians & Musicologists | Qt Framework, C++
+excerpt: Application for Musicians & Musicologists | OpenCV, C++
 coverImage: "/images/projects/2.musicology/sequence.png"
 location: "/meta/2017/10/03/musicology"
 ---
