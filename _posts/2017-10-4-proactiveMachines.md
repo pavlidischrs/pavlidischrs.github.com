@@ -2,7 +2,7 @@
 layout: post
 title: 'Proactive Machines Project'
 categories: Meta
-excerpt: Computer Vision & Machine Learning
+excerpt: Computer Vision & Machine Learning | OpenCV, Caffe, C++
 coverImage: "/images/projects/1.proactiveMachines/workflow.png" 
 location: "/meta/2017/10/04/proactiveMachines.html"
 ---
