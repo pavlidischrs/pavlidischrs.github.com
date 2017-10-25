@@ -2,31 +2,50 @@
 layout: post
 title: 'Musicology App'
 categories: Meta
-excerpt: Application for Musicians & Musicologists | OpenCV, C++
+excerpt: Application for Musicians & Musicologists | Qt SDK, C++
 coverImage: "/images/projects/2.musicology/sequence.png"
 location: "/meta/2017/10/03/musicology"
 ---
-[Under Development \| Demo is provided]
 
 ## Intro
 
-This application would be a software for **musicological exercises**.
+This is an application for exercising in Counterpoint. 
 
-The exercise **scenario** is to display Sequences of Musical Notes with some gaps among the Notes. Then, the user is asked to fill the missing Symbols according to the musicological rules. 
-
-
-
-<img src="{{ site.github.url }}/images/projects/2.musicology/sequence.png" width="300">
+A **Counterpoint System** consists of two pentagrams, where the lower pentagram is filled with a Sequence of Musical Notes and the upper pentagram is empty. The musicologist-user has to fill the upper pentagram with the right Musical Notes according to musicological rules.
 
 
 
 
-**Note:**
 
-* The demo is displayed with OpenCV and the future goal is to add a GUI.
+<img src="{{ site.github.url }}/images/projects/2.musicology/appImage.png" width="500">
 
-* The rules for the musical notes and the images have been chosen randomly! 
 
+
+
+**Note!** Currently, the rules are imaginary so you can see a demo of the app to check the workflow.
+
+<br/>
+
+## Algorithm Description
+
+Each Musical Symbo has an **ID**. Currently we have 10 Musical Notes so IDs are from 0 to 9. 
+
+## Back End
+
+The Given Exercise and the Given Answer are represented with a vector of integers, where each number is the ID of a Musical Symbol.
+
+The evaluation procedure checks if the Given Exercise and Answer obey the rules.
+
+
+
+## Front End 
+
+We use the QT Framework to implement the GUI of the app. 
+
+Each Musical Symbol is a **MusicalNoteItem** (inherits from QGraphicsPixmapItem) and it is showed in the GUI with **QGraphicsScene** and **QGraphicsView**.
+
+
+**More details could be found in the [repo](https://github.com/pavlidischrs/musicology/musicology)**.
 
 ## Source Code
 
