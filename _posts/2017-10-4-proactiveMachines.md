@@ -20,7 +20,6 @@ You can see the workflow of the software in the below image.
 
 <img src="{{ site.github.url }}/images/projects/1.proactiveMachines/workflow.png " class="fit image">
 
-
 <br />
 
 
@@ -51,7 +50,9 @@ It is an Open Source project hosted on GitHub. [Link to repo](https://github.com
 
 ## Future Work
 
-One issue of the detection module is that if you monitor an image with a big angle (which means that the markers are not aligned horizontally and vertically), it extracts a part of the inner image. This issue could be managed with an affine transformation of the image. Since the transformed image will be warped we expect that network performance will be decreased. To resolve this issue we will use the so-called **[1] Spatial Transformer Network** to retain the accuracy of our classification.
+In order to extract the image from the inside of the markers, we apply an affine transformation, which warps the inner image. Since our model is not trained in warped images, the network performance will decrease. To resolve this issue we will train a **[1] Spatial Transformer Network** in a distorted MNIST database, which we expect to give us better results.
+
+
 
 [1] Jaderberg, Max, Karen Simonyan, and Andrew Zisserman. "Spatial transformer networks." Advances in Neural Information Processing Systems. 2015.
 
