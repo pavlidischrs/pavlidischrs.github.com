@@ -8,6 +8,7 @@ location: "/meta/2017/10/04/proactiveMachines.html"
 ---
 [Implemented \| Will be further developed (see **Future Work** section)]
 
+[Click to watch a demo](http://www.youtube.com/watch?feature=player_embedded&v=2vS3Db4MVzU)
 
 ## Intro
 
@@ -21,8 +22,6 @@ You can see the workflow of the software in the below image.
 <img src="{{ site.github.url }}/images/projects/1.proactiveMachines/workflow.png " class="fit image">
 
 <br />
-
-
 
 ## Detection Module
 The detection module uses the **OpenCV** library to extract a part of the Web Camera's image which is on the inside of 3 Markers ([check image](https://github.com/pavlidischrs/proactiveMachines/blob/master/files/imageWithMarkers.png)). 
@@ -42,6 +41,13 @@ A network has been trained with this [network model](https://github.com/pavlidis
 It could be used any network and pre-trained model.
 
 
+## Demo
+
+**Click image to wacth a demo**
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2vS3Db4MVzU
+" target="_blank"><img src="http://img.youtube.com/vi/2vS3Db4MVzU/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 ## Source Code
