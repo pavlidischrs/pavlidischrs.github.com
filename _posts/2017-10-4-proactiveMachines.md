@@ -24,7 +24,7 @@ You can see the workflow of the software in the below image.
 <br />
 
 ## Detection Module
-The detection module uses the **OpenCV** library to extract a part of the Web Camera's image which is on the inside of 3 Markers ([check image](https://github.com/pavlidischrs/proactiveMachines/blob/master/files/imageWithMarkers.png)). 
+The detection module uses the **OpenCV** library to extract a part of the Web Camera's image which is on the inside of 3 Markers ([check image](https://github.com/pavlidischrs/proactiveMachines/blob/master/resourceFiles/testImages/0.jpg)). 
 
 Exploits the property that the concentric squares (Markers) have **Contours** with the same **Mass Center**. 
 
